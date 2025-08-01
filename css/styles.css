@@ -4455,7 +4455,10 @@ td:last-child {
     padding: 0; /* Optional: Adjust padding as needed */
 }
 
+
 .entry__thumb img {
     width: 100%; /* Ensures image spans the full width of the container */
     height: auto; /* Keeps image proportional */
+    object-fit: cover;
+    aspect-ratio: 1 / 1;        
 }
