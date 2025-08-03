@@ -1,8 +1,8 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/sight-reading", "destination": "https://<SIGHT_READING_PROJECT>.vercel.app" },
-    { "source": "/sight-reading/:path*", "destination": "https://<SIGHT_READING_PROJECT>.vercel.app/:path*" }
+    { "source": "/randompiece", "destination": "https://randompiece.vercel.app" },
+    { "source": "/randompiece/:path*", "destination": "https://randompiece.vercel.app/:path*" }
   ]
 }
 
