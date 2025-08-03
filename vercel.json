@@ -13,5 +13,16 @@
       "source": "/randompiece/api/:path*",
       "destination": "https://randompiece.vercel.app/api/:path*"
     }
+  ],
+    "headers": [
+    {
+      "source": "/randompiece/(.*)",
+      "headers": [
+        {
+          "key": "X-Forwarded-Host",
+          "value": "ezrasi.vercel.app"
+        }
+      ]
+    }
   ]
 }
