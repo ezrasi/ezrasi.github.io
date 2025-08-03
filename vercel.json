@@ -1,7 +1,9 @@
 {
   "version": 2,
+  "redirects": [
+    { "source": "/randompiece", "destination": "/randompiece/", "permanent": false }
+  ],
   "rewrites": [
-    { "source": "/randompiece", "destination": "https://randompiece.vercel.app" },
     { "source": "/randompiece/:path*", "destination": "https://randompiece.vercel.app/:path*" }
   ]
 }
