@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "redirects": [
-    { "source": "/randompiece", "destination": "/randompiece/", "permanent": false }
-  ],
   "rewrites": [
-    { "source": "/randompiece/:path*", "destination": "https://randompiece.vercel.app/:path*" }
+    {
+      "source": "/randompiece",
+      "destination": "https://randompiece.vercel.app"
+    },
+    {
+      "source": "/randompiece/:path*",
+      "destination": "https://randompiece.vercel.app/:path*"
+    },
+    {
+      "source": "/randompiece/api/:path*",
+      "destination": "https://randompiece.vercel.app/api/:path*"
+    }
   ]
 }
-
